@@ -1,7 +1,7 @@
 package celular;
 
 public class Celular {
-	// criaçãp de atributos - caracteristicas
+	// criação de atributos - caracteristicas
 	public String nome;
 	public String sistemaOperacional;
 	public int armazenamento;

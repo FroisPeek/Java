@@ -1,3 +1,9 @@
+//pré-ordem: RED
+//em ordem: ERD
+//pós-ordem: EDR
+
+
+
 package boa;
 import java.util.ArrayList;
 

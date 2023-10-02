@@ -1,0 +1,31 @@
+package ShowStack;
+import java.util.Stack;
+
+public class Apresentação {
+	public static void main(String[] args) {
+		
+		Stack<String> pilha = new Stack<>(); 
+		
+		pilha.push("vermelho");
+		pilha.push("branco");
+		pilha.push("branco");
+		pilha.push("azul");
+		pilha.push("cinza");
+		
+		System.out.println(pilha);
+		for (String x : pilha) {
+			System.out.println(x);
+		} 
+		
+		System.out.println("Elemento que se encontra no topo da pilha: " + pilha.peek());
+		System.out.println("Topo da pilha: " + pilha.pop());
+		
+		if (pilha.empty()) {
+			System.out.println("Pilha vazia!");
+		} else { 
+			System.out.println("Pilha com elementos!");
+		}
+		
+		pilha.clear(); // LIMPA A PILHA 
+	}
+}
